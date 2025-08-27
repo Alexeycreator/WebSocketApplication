@@ -3,35 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\centralbank\\bankmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:centralbank\\bankmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\printform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:printform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\centralbank\\bankparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:centralbank\\bankparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\createdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:createdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\settingsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\settingsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:settingsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\centralbank\\bankparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:centralbank\\bankparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,98 +50,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PrintForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\PrintForm.cs",
-              "RelativeDocumentMoniker": "PrintForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\PrintForm.cs",
-              "RelativeToolTip": "PrintForm.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvxAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T09:41:45.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ResponseModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\ResponseModel.cs",
-              "RelativeDocumentMoniker": "ResponseModel.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\ResponseModel.cs",
-              "RelativeToolTip": "ResponseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T09:19:44.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BankModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\CentralBank\\BankModel.cs",
-              "RelativeDocumentMoniker": "CentralBank\\BankModel.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\CentralBank\\BankModel.cs",
-              "RelativeToolTip": "CentralBank\\BankModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T08:39:23.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "SettingsClient.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\SettingsClient.cs",
               "RelativeDocumentMoniker": "SettingsClient.cs",
               "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\SettingsClient.cs",
               "RelativeToolTip": "SettingsClient.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAawCgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwB8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T07:55:23.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "BankParser.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\CentralBank\\BankParser.cs",
               "RelativeDocumentMoniker": "CentralBank\\BankParser.cs",
               "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\CentralBank\\BankParser.cs",
               "RelativeToolTip": "CentralBank\\BankParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwG8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T07:54:06.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CreateData.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\CreateData.cs",
               "RelativeDocumentMoniker": "CreateData.cs",
               "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\CreateData.cs",
               "RelativeToolTip": "CreateData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T07:46:04.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAArwBMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwCsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T15:22:26.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",

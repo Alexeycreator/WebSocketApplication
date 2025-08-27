@@ -13,30 +13,30 @@ namespace ClientWinFormsApplication.CentralBank
     private static string dateGetRate = DateTime.Now.ToShortDateString();
     private string urlCentralbank = $"https://www.cbr.ru/currency_base/daily/?UniDbQuery.Posted=True&UniDbQuery.To={dateGetRate}";
     private readonly HttpClient httpClient = new HttpClient();
-    private CsvWriter csvWriter = new CsvWriter();
-    private readonly string csvFilePath = Path.Combine(Directory.GetCurrentDirectory(), "CentralBank", $"{dateGetRate}");
-    private string typeExchange = "cb";
+    //private CsvWriter csvWriter = new CsvWriter();
+    //private readonly string csvFilePath = Path.Combine(Directory.GetCurrentDirectory(), "CentralBank", $"{dateGetRate}");
+    //private string typeExchange = "cb";
     private SettingsClient settingsClient = new SettingsClient();
     private const int countColumns = 5;
 
     public BankParser()
     {
-      if (!Directory.Exists(csvFilePath))
-      {
-        Directory.CreateDirectory(csvFilePath);
-      }
-      string dateTimeNow = DateTime.Now.ToString("HH-mm");
-      string fileName = $"Rate_{dateTimeNow}.csv";
-      csvFilePath = Path.Combine(csvFilePath, fileName);
-      if (!File.Exists(csvFilePath))
-      {
-        File.Create(csvFilePath).Close();
-      }
+      //if (!Directory.Exists(csvFilePath))
+      //{
+      //  Directory.CreateDirectory(csvFilePath);
+      //}
+      //string dateTimeNow = DateTime.Now.ToString("HH-mm");
+      //string fileName = $"Rate_{dateTimeNow}.csv";
+      //csvFilePath = Path.Combine(csvFilePath, fileName);
+      //if (!File.Exists(csvFilePath))
+      //{
+      //  File.Create(csvFilePath).Close();
+      //}
     }
 
-    public void CentralBankParser()
+    public List<BankModel> CentralBankParser()
     {
-      GetRate();
+      return GetRate();
     }
 
     private List<BankModel> GetRate()
@@ -82,8 +82,8 @@ namespace ClientWinFormsApplication.CentralBank
                   if (bankModels != null)
                   {
                     loggerBank.Info($"Данные успешно получены. Количество {bankModels.Count}");
-                    loggerBank.Info("Запись в файл полученных данных");
-                    csvWriter.Write(csvFilePath, bankModels);
+                    //loggerBank.Info("Запись в файл полученных данных");
+                    //csvWriter.Write(csvFilePath, bankModels);
                   }
                 }
               }
@@ -115,10 +115,10 @@ namespace ClientWinFormsApplication.CentralBank
       {
         loggerBank.Error(ex.Message);
       }
-      finally
-      {
-        settingsClient.Start(bankModels);
-      }
+      //finally
+      //{
+      //  settingsClient.Start(bankModels);
+      //}
 
       return bankModels;
     }

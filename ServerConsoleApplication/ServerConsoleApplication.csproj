@@ -52,8 +52,10 @@
   <ItemGroup>
     <Compile Include="BankModel.cs" />
     <Compile Include="CalculationData.cs" />
+    <Compile Include="CsvWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponseData.cs" />
     <Compile Include="SettingsServer.cs" />
   </ItemGroup>
   <ItemGroup>

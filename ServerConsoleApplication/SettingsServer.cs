@@ -17,9 +17,8 @@ namespace ServerConsoleApplication
     private Logger loggerServer = LogManager.GetCurrentClassLogger();
     private string timeNow = DateTime.Now.ToShortTimeString();
     private DateTime timeWorkingDayStart = DateTime.Today.AddHours(8);
-    private DateTime timeWorkingDayEnd = DateTime.Today.AddHours(20);
-    private CalculationData calculationData = new CalculationData();
-    private List<BankModel> _allDataBankModel = new List<BankModel>();
+    private DateTime timeWorkingDayEnd = DateTime.Today.AddHours(23);
+    private CalculationData calculationData;
 
     public void Start()
     {
@@ -62,8 +61,8 @@ namespace ServerConsoleApplication
         using (TcpClient client = _tcpListener.AcceptTcpClient())
         using (NetworkStream stream = client.GetStream())
         {
-          loggerServer.Info("Клиент подключен");
-
+          loggerServer.Info("Клиент подключен.");
+          loggerServer.Info($"Считывание данных.");
           byte[] buffer = new byte[1024];
           int bytesRead;
           string receivedData;
@@ -78,8 +77,9 @@ namespace ServerConsoleApplication
             receivedData = Encoding.UTF8.GetString(memoryStream.ToArray());
           }
           loggerServer.Info($"Получены данные: {receivedData}");
-
-          List<BankModel> processedData = calculationData.ProcessData(receivedData, ref _allDataBankModel);
+          calculationData = new CalculationData();
+          List<BankModel> processedData = calculationData.ProcessData(receivedData);
+          loggerServer.Info($"Данные обработаны.");
           var jsonBankModel = JsonConvert.SerializeObject(processedData);
           byte[] responseData = Encoding.UTF8.GetBytes(jsonBankModel);
           stream.Write(responseData, 0, responseData.Length);

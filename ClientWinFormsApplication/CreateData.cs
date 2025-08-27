@@ -1,6 +1,8 @@
 ﻿using ClientWinFormsApplication.CentralBank;
 using NLog;
 using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Threading;
 
 namespace ClientWinFormsApplication
@@ -8,9 +10,19 @@ namespace ClientWinFormsApplication
   internal sealed class CreateData
   {
     private string timeNow = DateTime.Now.ToShortTimeString();
-    private DateTime timeWorkingDayStart = DateTime.Today.AddHours(17);
-    private DateTime timeWorkingDayEnd = DateTime.Today.AddHours(19);
+    private DateTime timeWorkingDayStart = DateTime.Today.AddHours(8);
+    private DateTime timeWorkingDayEnd = DateTime.Today.AddHours(23);
     private Logger loggerCreateData = LogManager.GetCurrentClassLogger();
+    private SettingsClient settingsClient;
+    private const int sleepTime = 60000;
+    public event Action<List<ResponseModel>> DataResponse;
+    //private List<BankModel> bankList = new List<BankModel>();
+
+    public CreateData()
+    {
+      settingsClient = new SettingsClient();
+      settingsClient.DataResponse += OnDataResponse;
+    }
 
     public void DataCreation()
     {
@@ -22,11 +34,18 @@ namespace ClientWinFormsApplication
         {
           for (int i = 1; i <= totalHours; i++)
           {
-            loggerCreateData.Info($"Тест № {i}");
+            loggerCreateData.Info($"Запрос № {i} из {totalHours}");
             BankParser bankParser = new BankParser();
-            bankParser.CentralBankParser();
-            Thread.Sleep(60000); //1 минута
-            //Thread.Sleep(300000); //30 минут
+            List<BankModel> bankList = bankParser.CentralBankParser();
+            loggerCreateData.Info($"Данные {i} запроса получены");
+            settingsClient.Start(bankList);
+            if (i < totalHours)
+            {
+              var stopwatch = Stopwatch.StartNew();
+              Thread.Sleep(sleepTime);
+              stopwatch.Stop();
+              loggerCreateData.Info($"Задержка между запросом в {stopwatch.Elapsed}");
+            }
           }
         }
         else
@@ -42,6 +61,12 @@ namespace ClientWinFormsApplication
       {
         loggerCreateData.Error(ex.Message);
       }
+      //return bankList;
+    }
+
+    private void OnDataResponse(List<ResponseModel> responseModels)
+    {
+      DataResponse?.Invoke(responseModels);
     }
   }
 }

@@ -4,18 +4,15 @@ using NLog;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace ClientWinFormsApplication
 {
-  internal sealed class SettingsClient : MainForm
+  internal sealed class SettingsClient
   {
     private Logger loggerClient = LogManager.GetCurrentClassLogger();
-    private PrintForm printForm = new PrintForm();
+    public event Action<List<ResponseModel>> DataResponse;
 
     public void Start(List<BankModel> dataToSend)
     {
@@ -38,7 +35,7 @@ namespace ClientWinFormsApplication
           loggerClient.Info($"Получены обработанные данные: {responseData}");
 
           List<ResponseModel> responseModels = JsonConvert.DeserializeObject<List<ResponseModel>>(responseData);
-          printForm.UpdateUI(responseModels);
+          DataResponse?.Invoke(responseModels);
         }
       }
       catch (Exception ex)

@@ -1,40 +1,88 @@
 ﻿using Newtonsoft.Json;
+using NLog;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ServerConsoleApplication
 {
   internal class CalculationData
   {
-    public List<BankModel> ProcessData(string _data, ref List<BankModel> _allDataBankModel)
+    private CsvWriter csvWriter = new CsvWriter();
+    private Logger loggerCalculation = LogManager.GetCurrentClassLogger();
+    private List<ResponseData> responseDatas = new List<ResponseData>();
+    private static string dateGetRate = DateTime.Now.ToShortDateString();
+    private readonly string csvFilePathRate = Path.Combine(Directory.GetCurrentDirectory(), "CentralBank", $"{dateGetRate}");
+
+    public CalculationData()
     {
-      List<BankModel> jsonBankModels = JsonConvert.DeserializeObject<List<BankModel>>(_data);
-      _allDataBankModel.AddRange(jsonBankModels);
-      double averageRate = AverageRate(_allDataBankModel);
-      foreach (var item in jsonBankModels)
+      if (!Directory.Exists(csvFilePathRate))
       {
-        item.Rate = averageRate.ToString();
+        Directory.CreateDirectory(csvFilePathRate);
       }
-      return jsonBankModels;
+      string dateTimeNowRate = DateTime.Now.ToString("HH-mm");
+      string fileNameRate = $"Rate_{dateTimeNowRate}.csv";
+      csvFilePathRate = Path.Combine(csvFilePathRate, fileNameRate);
+      if (!File.Exists(csvFilePathRate))
+      {
+        File.Create(csvFilePathRate).Close();
+      }
     }
 
-    private double AverageRate(List<BankModel> _data)
+    public List<BankModel> ProcessData(string _data)
     {
-      double sum = 0;
-      int count = 0;
-      foreach (var item in _data)
+      List<BankModel> coming = JsonConvert.DeserializeObject<List<BankModel>>(_data);
+      loggerCalculation.Info("Запись данных приходящего файла.");
+      csvWriter.Write(csvFilePathRate, coming);
+      loggerCalculation.Info("Запись данных успешно выполнена.");
+      loggerCalculation.Info($"Преобразование полученных данных для отправки.");
+      foreach (var bankItem in coming)
       {
-        if (double.TryParse(item.Rate, NumberStyles.Any, CultureInfo.InvariantCulture, out double rateValue))
+        var response = new ResponseData
         {
-          sum += rateValue;
-          count++;
+          DigitalCode = bankItem.DigitalCode,
+          LetterCode = bankItem.LetterCode,
+          Units = bankItem.Units,
+          Currency = bankItem.Currency,
+          Rate = Convert.ToDouble(bankItem.Rate),
+        };
+
+        responseDatas.Add(response);
+      }
+      var digitalCodeGroups = responseDatas.GroupBy(item => item.DigitalCode);
+      List<ResponseData> resultForFile = new List<ResponseData>();
+      foreach (var group in digitalCodeGroups)
+      {
+        if (group.Count() > 1)
+        {
+          double averageRate = group.Average(item => item.Rate);
+          var firstItem = group.First();
+          firstItem.Rate = averageRate;
+          resultForFile.Add(firstItem);
+        }
+        else
+        {
+          resultForFile.Add(group.First());
         }
       }
-      return count > 0 ? sum / count : 0;
+
+      List<BankModel> dataResponse = new List<BankModel>();
+      foreach (var item in resultForFile)
+      {
+        dataResponse.Add(new BankModel
+        {
+          DigitalCode = item.DigitalCode,
+          LetterCode = item.LetterCode,
+          Units = item.Units,
+          Currency = item.Currency,
+          Rate = item.Rate.ToString()
+        });
+      }
+
+      loggerCalculation.Info($"Данные успешно преобразованы. Обработано {dataResponse.Count} записей");
+
+      return dataResponse;
     }
   }
 }

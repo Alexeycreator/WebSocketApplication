@@ -14,14 +14,15 @@ namespace ClientWinFormsApplication
     private DateTime timeWorkingDayEnd = DateTime.Today.AddHours(23);
     private Logger loggerCreateData = LogManager.GetCurrentClassLogger();
     private SettingsClient settingsClient;
-    private const int sleepTime = 60000;
+    private int sleepTime;
     public event Action<List<ResponseModel>> DataResponse;
     //private List<BankModel> bankList = new List<BankModel>();
 
-    public CreateData()
+    public CreateData(int _sleepTime)
     {
       settingsClient = new SettingsClient();
       settingsClient.DataResponse += OnDataResponse;
+      sleepTime = _sleepTime;
     }
 
     public void DataCreation()

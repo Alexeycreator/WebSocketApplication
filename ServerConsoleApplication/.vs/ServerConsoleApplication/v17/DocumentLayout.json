@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ServerConsoleApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9042EFBC-6786-47C6-8B4E-EB997F8563BD}|ServerConsoleApplication.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ServerConsoleApplication\\calculationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9042EFBC-6786-47C6-8B4E-EB997F8563BD}|ServerConsoleApplication.csproj|solutionrelative:calculationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9042EFBC-6786-47C6-8B4E-EB997F8563BD}|ServerConsoleApplication.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ServerConsoleApplication\\settingsserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9042EFBC-6786-47C6-8B4E-EB997F8563BD}|ServerConsoleApplication.csproj|solutionrelative:settingsserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9042EFBC-6786-47C6-8B4E-EB997F8563BD}|ServerConsoleApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\serverconsoleapplication\\settingsserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9042EFBC-6786-47C6-8B4E-EB997F8563BD}|ServerConsoleApplication.csproj|solutionrelative:settingsserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9042EFBC-6786-47C6-8B4E-EB997F8563BD}|ServerConsoleApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\serverconsoleapplication\\calculationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9042EFBC-6786-47C6-8B4E-EB997F8563BD}|ServerConsoleApplication.csproj|solutionrelative:calculationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9042EFBC-6786-47C6-8B4E-EB997F8563BD}|ServerConsoleApplication.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ServerConsoleApplication\\csvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,31 +54,30 @@
               "RelativeToolTip": "CsvWriter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T08:50:44.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T08:50:44.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CalculationData.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ServerConsoleApplication\\CalculationData.cs",
               "RelativeDocumentMoniker": "CalculationData.cs",
               "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ServerConsoleApplication\\CalculationData.cs",
               "RelativeToolTip": "CalculationData.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwFUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwD8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T14:39:38.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SettingsServer.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ServerConsoleApplication\\SettingsServer.cs",
               "RelativeDocumentMoniker": "SettingsServer.cs",
               "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ServerConsoleApplication\\SettingsServer.cs",
               "RelativeToolTip": "SettingsServer.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAawEoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T14:20:24.473Z",
               "EditorCaption": ""
@@ -93,8 +92,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T14:05:32.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T14:05:32.469Z"
             }
           ]
         }

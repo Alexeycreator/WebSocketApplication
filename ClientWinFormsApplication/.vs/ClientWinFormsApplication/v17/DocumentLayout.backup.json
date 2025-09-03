@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0435\u0439\\desktop\\\u0443\u0447\u0435\u0431\u0430\\github\\websocketapplication\\clientwinformsapplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF609A75-5094-4BF3-B085-C3D311CDAEF3}|ClientWinFormsApplication.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\createdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,6 +50,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T16:20:46.999Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "SettingsClient.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\SettingsClient.cs",
@@ -71,8 +83,7 @@
               "RelativeToolTip": "CentralBank\\BankParser.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAgwG8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T07:54:06.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T07:54:06.829Z"
             },
             {
               "$type": "Document",
@@ -89,28 +100,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs*",
-              "RelativeToolTip": "MainForm.cs*",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAawG0AAAALAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T15:22:26.141Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0435\u0439\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\github\\WebSocketApplication\\ClientWinFormsApplication\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T14:16:07.553Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         }
